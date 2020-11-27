@@ -1,20 +1,43 @@
-# canchitApp
-Proyecto para la facultad
+# CanchitApp
 
-El dueño de un complejo de canchas de fútbol , nos solicita la creación de un sistema de alquiler de canchas, el sistema estará disponible también como app y podrán utilizarla los clientes .
-El complejo cuenta con:
-- 4 canchas de fútbol 5
-- 3 de fútbol 7
-- 2 fútbol 9
-- 1 de fútbol 11
+Este proyecto fue desarrollado para la materia Nuevas Tecnologías 2 del terciario Analista de Sistemas en ORT.
+Consiste en una App de reservas de canchas de fútbol. Tiene una vista de usuario y una de administrador.
+El usuario puede registrarse, loguearse, editar su perfil, cambiar contraseña, crear una nueva reserva, pagarla para confirmarla (pantalla sin validacion con datos fake) y cancelarla.
+Aclaración: el usuario puede tener una sola reserva a la vez. 
+El administrador puede setear los días y horarios de atención, ver el listado de canchas, agregar, editar y eliminar una cancha.
+También puede ver el listado de reservas que tiene desde hoy para adelante y cancelar la que considere necesaria.
 
-En la app se podrá ver:
-- Cuáles de las mismas están libres ,y cuáles  reservadas/ocupadas.
+## Comenzando 🚀
+### Pre-requisitos 📋
 
-- Precio de alquiler.
+* [Node.js](https://nodejs.org/en/download/) v12.18.3
+* [Expo](https://docs.expo.io/get-started/installation/) versión v3.28.5
+* [Expo para celular](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=es&gl=US) 
 
-- Quien alquiló la cancha tiene la opción de, (en caso de que falten jugadores para completar un equipo y poder jugar el partido) , solicitar jugadores , y , en la app se lanzará una notificación preguntando si desean incorporarse al partido en cuestión. 
+### Instalación 🔧
 
-- La app estará integrada con sistemas de pagos online( ej: mercadoPago), lo que brinda la posibilidad de pagar vía web a cada participante del partido.
+Para tener una copia de este proyecto en tu computadora, deberás seguir los pasos detallados a continuación:
 
-- La app también contará con una sección de torneo, la cual permitirá cargar el resultado de los partidos , y así llevar un registro de goleadores y resultados de los equipos ( Fútbol 11 únicamente), estos registros serán llevados con el objetivo, de al final del torneo, entregar trofeos al equipo campeón, al goleador del torneo.
+* git clone https://github.com/RocioBel/CanchitApp-front.git
+* cd CanchitApp
+* npm install
+* npm start
+
+## Ejecución 🚀
+
+Para ejecutar la App desde el celular:
+* abrir la aplicación Expo
+* escanear el código QR
+
+### Pruebas 🔧
+
+Para entrar como administrador, acceder con las siguientes credenciales:
+* usuario: admin@admin.com
+* password: Admin
+
+Para acceder como cliente, crearse una cuenta nueva en la sección "Registrarme"
+
+## Construido con 🛠️
+
+* [Expo](https://expo.io/) - El framework web usado
+
